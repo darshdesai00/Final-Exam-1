@@ -15,11 +15,11 @@ int main() {
     while (file >> origin >> destination) {
 
         if(airports.count(origin) == 0) { 
-            airports[origin] = 0
+            airports[origin] = 0;
         }
 
         if(airports.count(destination) == 0) { 
-            airports[destination] = 0        
+            airports[destination] = 0;       
         }
 
         airports[origin]++;
