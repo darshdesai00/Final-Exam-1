@@ -7,7 +7,7 @@ using namespace std;
 int main() {
 
     // Initial commit: 
-    cout << "Airport traffic project initialized.\n";
+    cout << "Airport traffic.\n";
 
     return 0;
 }
