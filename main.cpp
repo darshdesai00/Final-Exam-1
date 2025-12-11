@@ -7,8 +7,8 @@ using namespace std;
 // Milestone 3
 void printRange(const map<string, int>& airports, int low, int high) {
     for (map<string, int>::const_iterator it = airports.begin(); it != airports.end(); it++) {
-        if (it->second >= low && it-> second <= high) {
-            cout << it-> first << " " << it->second << endl;
+        if (it->second >= low && it->second <= high) {
+            cout << it->first << " " << it->second << endl;
         }
     }
 }
@@ -65,6 +65,9 @@ printRange(airports, 5, 8);
 
 cout << "\nAirports with traffic in range [9,12]:\n";
 printRange(airports, 9, 12);
+
+// Milestone 4 
+cout << "\nAll Milestone Exercised.\n";
 
 return 0;
 
