@@ -36,17 +36,17 @@ int main() {
 // Milestone 2
 int maxCount = 0;
 
-for (map<string, int>:;iterator it + airports.begin(); it != airports.end(); it++) { 
-    if (it->second maxcount) {
-        maxcount = it->second;
+for (map<string, int>::iterator it = airports.begin(); it != airports.end(); it++) { 
+    if (it->second > maxCount) {
+        maxCount = it->second;
     }
 }
 
-cout << "\n The busiest airports with count " << maxcount << ";\n";
+cout << "\nBusiest airport(s) with count " << maxCount << ":\n";
 
-for (map<string, int>::iterator it = airport.begin(); it++) {
-    it(it->second maxcoint) {
-        maxcount = it ->second;
+for (map<string, int>::iterator it = airports.begin(); it != airports.end(); it++) {
+    if(it->second == maxCount) {
+        cout << it->first << " " << it->second << endl;    
     }
 }
     return 0;
