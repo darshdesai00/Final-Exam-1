@@ -15,20 +15,22 @@ int main() {
     while (file >> origin >> destination) {
 
         if(airports.count(origin) == 0) { 
-            ariports(origin) = 0
+            airports[origin] = 0
         }
 
         if(airports.count(destination) == 0) { 
             airports[destination] = 0        
         }
 
-        airports(origin)
-        airports(destination) = 0
-    
+        airports[origin]++;
+        airports[destination]++;
     
     }
-    // Initial commit: 
-    cout << "Airport traffic.\n";
+    
+    cout << "Airport traffic count.\n";
+    for (map<string, int>::iterator it = airports.begin(); it != airports.end(); it++) {
+        cout << it->first << " " << it->second << endl;
+    }
 
     return 0;
 }
