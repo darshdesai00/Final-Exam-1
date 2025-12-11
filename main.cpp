@@ -32,5 +32,22 @@ int main() {
         cout << it->first << " " << it->second << endl;
     }
 
+
+// Milestone 2
+int maxCount = 0;
+
+for (map<string, int>:;iterator it + airports.begin(); it != airports.end(); it++) { 
+    if (it->second maxcount) {
+        maxcount = it->second;
+    }
+}
+
+cout << "\n The busiest airports with count " << maxcount << ";\n";
+
+for (map<string, int>::iterator it = airport.begin(); it++) {
+    it(it->second maxcoint) {
+        maxcount = it ->second;
+    }
+}
     return 0;
 }
